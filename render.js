@@ -5,3 +5,7 @@ function renderDialog01Template() {
 function renderDialog02Template() {
     document.getElementById('myDialog02').innerHTML = getDialog02Template();
 }
+
+function renderDialog03Template() {
+    document.getElementById('myDialog03').innerHTML = getDialog03Template();
+}

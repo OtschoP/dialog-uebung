@@ -7,3 +7,8 @@ function openDialog01() {
             renderDialog02Template();
             document.getElementById('myDialog02').showModal();
         }
+
+        function openDialog03() {
+            renderDialog03Template();
+            document.getElementById('myDialog03').showModal();
+        }
