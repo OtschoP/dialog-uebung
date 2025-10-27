@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Übung</title>
+</head>
+<body>
+    <header>
+        <h1>Willkommen zur Dialog Übung</h1>
+    </header>
+    <main>
+        <p>Hier ist der Hauptinhalt der Seite.</p>
+        <button onclick="openDialog()">Dialog öffnen</button>
+    </main>
+    <dialog id="myDialog01">
+        <form method="dialog">
+            <p>Dies ist ein einfacher Dialog.</p>
+            <button>OK</button>
+        </form>
+    </dialog>
+    <script>
+        function openDialog() {
+            document.getElementById('myDialog').showModal();
+        }
+    </script>
+</body>
+</html>
